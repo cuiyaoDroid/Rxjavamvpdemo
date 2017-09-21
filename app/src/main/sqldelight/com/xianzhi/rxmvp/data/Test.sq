@@ -1,0 +1,18 @@
+CREATE TABLE test (
+    _id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    entryid TEXT NOT NULL,
+    title TEXT,
+    description TEXT,
+    completed TEXT
+  );
+
+selectAll:
+SELECT *
+FROM test;
+
+insertRow:
+INSERT INTO test(entryid, title,description,completed)
+VALUES (?, ?,?,?);
+
+deleteAll:
+DELETE FROM test;
