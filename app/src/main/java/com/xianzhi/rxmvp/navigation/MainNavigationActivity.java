@@ -19,7 +19,7 @@ public class MainNavigationActivity extends BaseNavigationActivity {
     protected List<NavigationBean> initNavigationData() {
         List<NavigationBean>navigationBeanList = new ArrayList<>();
 
-        navigationBeanList.add(new NavigationBean(1,"接口调用","三级缓存", TestActivity.class));
+        navigationBeanList.add(new NavigationBean(1,"接口调用","缓存", TestActivity.class));
 
         return navigationBeanList;
     }
